@@ -1,4 +1,4 @@
-package com.sistema.academia.config.excepition.response;
+package com.sistema.academia.config.exception.response;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package com.sistema.academia.config.excepition;
+package com.sistema.academia.config.exception;
 
 /**
  * Exceção personalizada para entidades não encontradas
