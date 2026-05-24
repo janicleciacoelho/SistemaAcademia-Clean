@@ -1,10 +1,6 @@
-package com.sistema.academia.config.excepition;
+package com.sistema.academia.config.exception;
 
-/**
- * Exceção personalizada para entidades não encontradas
- */
 public class EntityNotFoundException extends RuntimeException {
-
     public EntityNotFoundException(String message) {
         super(message);
     }
@@ -13,4 +9,3 @@ public class EntityNotFoundException extends RuntimeException {
         super(message, cause);
     }
 }
-

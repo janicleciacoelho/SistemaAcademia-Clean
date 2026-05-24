@@ -1,4 +1,14 @@
 package com.sistema.academia.internal.acesso.dto;
 
-public class AcessoResponseRecord {
+import java.time.LocalDate;
+
+public record AcessoResponseRecord(
+
+        Long id,
+        String aluno,
+        LocalDate dataEntrada,
+        String status,
+        String plano
+
+) {
 }
